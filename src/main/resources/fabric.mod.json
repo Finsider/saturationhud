@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "fin_saturation_hud",
+	"version": "1.0.0",
+	"name": "Finside' Saturation HUD",
+	"description": "A Minimal Saturation HUD!",
+	"authors": [
+		"Finside"
+	],
+	"license": "LGPL-3.0",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"com.fin.saturationhud.Main"
+		]
+	},
+	"mixins": [
+		"saturationhud.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
